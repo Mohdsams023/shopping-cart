@@ -1,0 +1,12 @@
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product-card {
+    flex: 1 1 calc(25% - 40px); /* 4 cards in one row with some gap */
+    box-sizing: border-box;
+    margin: 10px;
+  }
